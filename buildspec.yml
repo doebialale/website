@@ -12,7 +12,7 @@ phases:
       - echo Build started on `date`
       - zip hello.zip ./index.html ./aws.gif ./1.png ./back.jpg
    
-artifacts:
+artifact:
   type: 
   files:
     - index.html
